@@ -38,8 +38,8 @@ or not, and how, a Machine Learning model can be used to improve the
 ACO algorithms performance. 
 According to the ["Boosting ant colony optimization via solution prediction and machine learning"](https://www.sciencedirect.com/science/article/abs/pii/S0305054822000636) paper, 
 the three ways in which this can be done
-are executed by setting `ML_ = 1` (ACO_\ni) , `ML_ = 2` (ACO_\hat{\ni}) and
-`ML_ = 3` (ACO_\tau), while `ML_ = 0` executes the "traditional" 
+are executed by setting `ML_ = 1` ($ACO_\eta$) , `ML_ = 2` ($ACO_\hat{\eta}$) and
+`ML_ = 3` ($ACO_\tau$), while `ML_ = 0` executes the "traditional" 
 ACO algorithms. 
 Another parameter, `LS_` , controls whether or not a 2-opt local search is
 performed each time an Ant discovers a new path. 
