@@ -18,7 +18,7 @@ def generate_dataset(n, dim=2):
         if i == 0 or i == (n-1):
             score.append(0.)
         else:
-            score.append(int(np.random.uniform(0, 100)))
+            score.append(int(np.random.uniform(1, 100)))
     return np.array(coordinates), np.array(score), int(np.random.uniform(100, 400))
 
 

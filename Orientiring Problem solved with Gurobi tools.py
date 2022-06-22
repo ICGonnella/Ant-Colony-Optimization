@@ -17,7 +17,7 @@ c = ant_hill_tmp.cost_matrix.copy()
 
 # 2) load a problem from the github page of the authors
 # there are 100 of size 50 (n_nodes=50) and 100 of size 100 (n_nodes=100)
-T_max, start, end, d = dpp.load_problem(num=1, n_nodes=100)
+T_max, start, end, d = dpp.load_problem(num=3, n_nodes=50)
 n = len(d)
 ant_hill_tmp = population.Population(n, np.array(d["score"]),
                                      np.array(d.iloc[:, :2]), start, end, T_max)

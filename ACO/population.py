@@ -189,11 +189,7 @@ class Population:
                 self.delta_tau_AS(a)
                 delta_sum = delta_sum + a.delta_tau_matrix
             self.update_tau(delta_sum)
-            #print(f"{k}, y_max = {self.y_best}, best trajectory: {self.trajectory_best}")
-            #sb.heatmap(pd.DataFrame(self.tau_matrix), annot=False)
-            #plt.savefig(f"./seaborn/{k}.png")
-            #plt.show()
-            #self.plot(k)
+            print(f"{k}, y_max = {self.y_best}, best trajectory: {self.trajectory_best}")
             self.update_ants()
 
     def MMAS(self, K, global_=False):
@@ -234,10 +230,6 @@ class Population:
             print(
                 f"{k}, y_max = {self.y_best}, y_max found = {np.max([self.ants[i].y for i in range(self.m)])},"
                 f" best trajectory: {self.trajectory_best}")
-            #sb.heatmap(pd.DataFrame(self.tau_matrix), annot=False)
-            #plt.savefig(f"./seaborn/MMAS/{k}.png")
-            #plt.show()
-            #self.plot(k)
             self.update_ants()
 
     def plot(self):

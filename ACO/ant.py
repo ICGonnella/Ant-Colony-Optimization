@@ -97,9 +97,8 @@ class Ant:
         if tmp == [self.n - 1]:
             prob[-1] = 1
         else:
-            for i in tmp: prob[i] = (self._tau_matrix[self.trajectory[-1], i] **
-                                     self.alpha) * (self._eta_matrix[self.trajectory[-1],
-                                                                    i] ** self.beta)
+            for i in tmp:
+                prob[i] = (self._tau_matrix[self.trajectory[-1], i] ** self.alpha) * (self._eta_matrix[self.trajectory[-1], i] ** self.beta)
         tmp = np.array(prob)/np.sum(prob)
         return tmp
 
