@@ -30,7 +30,7 @@ the github
 with the function `load_problem()`
 of the `data_preprocessing.py` file of the ACO package.
 
-### Orientiring Problem solved with ACO method.py
+### Orientiring Problem solved with ACO method
 python file to solve a chosen OP problem with ACO methods.
 It explains how to run all the possible configurations of ACO
 algorithms implemented in the ACO package.
