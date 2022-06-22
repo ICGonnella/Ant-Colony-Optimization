@@ -163,7 +163,7 @@ class Population:
             min_cost += self.cost_matrix[best_traj[-1],self.n - 1]
             best_traj.append(self.n - 1)
             gain = np.sum([self.gain_vector[k] for k in best_traj])
-            # substitute the found trajectory to the old one if it brings an improvement
+            # replace the found trajectory to the old one if it brings an improvement
             if min_cost <= self.T_max and gain > ant_.y:
                 ant_.trajectory = best_traj.copy()
                 ant_.y = gain.copy()

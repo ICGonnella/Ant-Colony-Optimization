@@ -17,10 +17,10 @@ visualization w.r.t. the original implementation)
 
 # .py files
 
-### Orientiring Problem solved with Gurobi tools
-python file to solve a chosen OP problem with Gurobi
+### Orienteering Problem solved with Gurobi tools
+python file to solve a chosen OP with Gurobi
 optimization tools.
-The OP problem can be chosen either choosing a dimensionality
+The OP can be chosen either choosing a dimensionality
 and generating a DataFrame of random points with random
 gains (with the function `generate_dataset()` of the 
 `data_preprocessing.py` file of the ACO package), or loading
@@ -30,11 +30,11 @@ the github
 with the function `load_problem()`
 of the `data_preprocessing.py` file of the ACO package.
 
-### Orientiring Problem solved with ACO method.py
-python file to solve a chosen OP problem with ACO methods.
+### Orienteering Problem solved with ACO method
+python file to solve a chosen OP with ACO methods.
 It explains how to run all the possible configurations of ACO
 algorithms implemented in the ACO package.
-The OP problem can be chosen in the same way explained for the
+The OP can be chosen in the same way explained for the
 Orientiring Problem solved with Gurobi tools file
 
 # Others
