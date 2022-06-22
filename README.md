@@ -2,7 +2,7 @@
 
 ### ACO
 see the internal `README.md` file ( implementation of the 
-[Ant-Colony-Optimization methods](https://github.com/ICGonnella/ACO/tree/main/ACO))
+[Ant-Colony-Optimization methods](https://github.com/ICGonnella/Ant-Colony-Optimization/tree/master/ACO)
 
 ### MLACO
 empty directory that has to be replaced by the clone of
