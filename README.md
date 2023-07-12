@@ -1,6 +1,5 @@
 # Directories
 
-[a relative link](./ACO)
 
 ### ACO
 see the internal `README.md` file ( implementation of the 
